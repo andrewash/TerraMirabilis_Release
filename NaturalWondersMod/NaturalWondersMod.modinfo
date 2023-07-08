@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="74c5c3d9-5408-4315-9e0a-b0c369f82bcd" version="1">
   <Properties>
-    <Name>Terra Mirabilis</Name>
+    <Name>Terra Mirabilis (Ash Style)</Name>
     <Description>A mod that reworks Natural Wonders in Civilization VI, and adds new ones that include some old fan-favourites.</Description>
     <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
     <Created>1598618345</Created>
     <Teaser>A mod that reworks Natural Wonders in Civilization VI, and adds new ones that include some old fan-favourites.</Teaser>
-    <Authors>Deliverator, ChimpanG</Authors>
+    <Authors>Deliverator, ChimpanG, AndrewAsh</Authors>
     <SpecialThanks>CIVITAS</SpecialThanks>
   </Properties>
   <ActionCriteria>

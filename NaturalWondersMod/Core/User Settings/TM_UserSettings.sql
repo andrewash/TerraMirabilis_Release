@@ -47,7 +47,7 @@ VALUES
 -- NOTE: When this is enabled, the Natural Wonder adjacency bonus for the Holy Site (and any unique replacements) is replaced with a standard adjacency bonus instead of a major
 -----------------------------------------------
 
-	('NW_ADJACENCY',	NULL,	1),
+	('NW_ADJACENCY',	NULL,	0),
 
 -----------------------------------------------
 -- Buildings in Specialty Districts increase the base yield of the district by +1 when adjacent to a Natural Wonder?
