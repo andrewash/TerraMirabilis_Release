@@ -402,7 +402,7 @@ INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text) VALUES
 -- PAITITI
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_PAITITI_DESCRIPTION",			"Three tile impassable natural wonder. Adjacent plots yield +1 [ICON_PRODUCTION] Production, +2 [ICON_CULTURE] Culture, +3 [ICON_GOLD] Gold, and +4 [ICON_FAITH] Faith."	),
+	("en_US",	"LOC_TM_FEATURE_PAITITI_DESCRIPTION",			"Three tile impassable natural wonder. Adjacent plots yield +1 [ICON_PRODUCTION] Production, +2 [ICON_CULTURE] Culture, +2 [ICON_FOOD] Food, +3 [ICON_GOLD] Gold, and +3 [ICON_FAITH] Faith."	),
 	("en_US",	"LOC_TM_FEATURE_PAITITI_EFFECT",				"Receive +100% [ICON_GOLD] Gold in any city that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_PAITITI_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_PAITITI_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_PAITITI_EFFECT}"	),
 
