@@ -47,7 +47,7 @@ VALUES
 -- NOTE: When this is enabled, the Natural Wonder adjacency bonus for the Holy Site (and any unique replacements) is replaced with a standard adjacency bonus instead of a major
 -----------------------------------------------
 
-	('NW_ADJACENCY',	NULL,	1),
+	('NW_ADJACENCY',	NULL,	0),
 
 -----------------------------------------------
 -- Buildings in Specialty Districts increase the base yield of the district by +1 when adjacent to a Natural Wonder?
@@ -101,7 +101,7 @@ VALUES
 -- Experience earned for discovering Natural Wonder
 -----------------------------------------------
 
-	('NW_REVEAL_XP',	NULL,	15), -- Game Default 10
+	('NW_REVEAL_XP',	NULL,	20), -- Game Default 10
 
 -----------------------------------------------
 -- Natural Wonder adjacent fertility
@@ -117,7 +117,7 @@ VALUES
 -- Snow / Ice = 0
 -----------------------------------------------
 
-	('NW_FERTILITY',	NULL,	2), -- Game Default 1
+	('NW_FERTILITY',	NULL,	3), -- Game Default 1
 
 -----------------------------------------------
 -- Adjust EraScore earned for finding or settling Natural Wonders. (Rise & Fall Only)
