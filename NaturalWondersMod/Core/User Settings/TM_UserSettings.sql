@@ -13,7 +13,7 @@ VALUES
 -- NOTE: Lowering this number will increase the likelihood of NWs appearing closer to each other
 -----------------------------------------------
 
-	('WONDER_DISTANCE',		NULL,	7),
+	('WONDER_DISTANCE',		NULL,	6),
 
 -----------------------------------------------
 -- Amount of Natural Wonders In Game (by map size)
@@ -26,8 +26,8 @@ VALUES
 	('WONDERS_TINY',		'NW_MAP_SIZE',	6), -- Game Default 3
 	('WONDERS_SMALL',		'NW_MAP_SIZE',	8), -- Game Default 4
 	('WONDERS_STANDARD',	'NW_MAP_SIZE',	10), -- Game Default 5
-	('WONDERS_LARGE',		'NW_MAP_SIZE',	12), -- Game Default 6
-	('WONDERS_HUGE',		'NW_MAP_SIZE',	14), -- Game Default 7
+	('WONDERS_LARGE',		'NW_MAP_SIZE',	14), -- Game Default 6
+	('WONDERS_HUGE',		'NW_MAP_SIZE',	16), -- Game Default 7
 
 	-- Gedemon's YNAMP
 	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	16), -- Default 8
@@ -117,7 +117,7 @@ VALUES
 -- Snow / Ice = 0
 -----------------------------------------------
 
-	('NW_FERTILITY',	NULL,	2), -- Game Default 1
+	('NW_FERTILITY',	NULL,	3), -- Game Default 1
 
 -----------------------------------------------
 -- Adjust EraScore earned for finding or settling Natural Wonders. (Rise & Fall Only)
