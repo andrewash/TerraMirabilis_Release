@@ -13,7 +13,7 @@ VALUES
 -- NOTE: Lowering this number will increase the likelihood of NWs appearing closer to each other
 -----------------------------------------------
 
-	('WONDER_DISTANCE',		NULL,	5),
+	('WONDER_DISTANCE',		NULL,	6),
 
 -----------------------------------------------
 -- Amount of Natural Wonders In Game (by map size)
@@ -22,11 +22,11 @@ VALUES
 -- NOTE: This does not guarantee you will see X number of wonders in the game. This will be due to map script placement. Consider this more of a maximum value.
 -----------------------------------------------
 
-	('WONDERS_DUEL',		'NW_MAP_SIZE',	4), -- Game Default 2
-	('WONDERS_TINY',		'NW_MAP_SIZE',	7), -- Game Default 3
-	('WONDERS_SMALL',		'NW_MAP_SIZE',	10), -- Game Default 4
-	('WONDERS_STANDARD',	'NW_MAP_SIZE',	12), -- Game Default 5
-	('WONDERS_LARGE',		'NW_MAP_SIZE',	16), -- Game Default 6
+	('WONDERS_DUEL',		'NW_MAP_SIZE',	6), -- Game Default 2
+	('WONDERS_TINY',		'NW_MAP_SIZE',	9), -- Game Default 3
+	('WONDERS_SMALL',		'NW_MAP_SIZE',	12), -- Game Default 4
+	('WONDERS_STANDARD',	'NW_MAP_SIZE',	15), -- Game Default 5
+	('WONDERS_LARGE',		'NW_MAP_SIZE',	18), -- Game Default 6
 	('WONDERS_HUGE',		'NW_MAP_SIZE',	21), -- Game Default 7
 
 	-- Gedemon's YNAMP
@@ -47,7 +47,7 @@ VALUES
 -- NOTE: When this is enabled, the Natural Wonder adjacency bonus for the Holy Site (and any unique replacements) is replaced with a standard adjacency bonus instead of a major
 -----------------------------------------------
 
-	('NW_ADJACENCY',	NULL,	0),
+	('NW_ADJACENCY',	NULL,	1),
 
 -----------------------------------------------
 -- Buildings in Specialty Districts increase the base yield of the district by +1 when adjacent to a Natural Wonder?
@@ -95,7 +95,7 @@ VALUES
 -----------------------------------------------
 
 	('START_DISTANCE_MAJOR',	NULL,	3), -- Game Default 3 (tiles)
-	('START_DISTANCE_MINOR',	NULL,	6), -- Game Default 3 (tiles)
+	('START_DISTANCE_MINOR',	NULL,	5), -- Game Default 3 (tiles)
 
 -----------------------------------------------
 -- Experience earned for discovering Natural Wonder
