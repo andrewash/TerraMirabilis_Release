@@ -25,9 +25,9 @@ VALUES
 	('WONDERS_DUEL',		'NW_MAP_SIZE',	6), -- Game Default 2
 	('WONDERS_TINY',		'NW_MAP_SIZE',	8), -- Game Default 3
 	('WONDERS_SMALL',		'NW_MAP_SIZE',	10), -- Game Default 4
-	('WONDERS_STANDARD',	'NW_MAP_SIZE',	12), -- Game Default 5
+	('WONDERS_STANDARD',	'NW_MAP_SIZE',	15), -- Game Default 5
 	('WONDERS_LARGE',		'NW_MAP_SIZE',	18), -- Game Default 6
-	('WONDERS_HUGE',		'NW_MAP_SIZE',	22), -- Game Default 7
+	('WONDERS_HUGE',		'NW_MAP_SIZE',	21), -- Game Default 7
 
 	-- Gedemon's YNAMP
 	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	16), -- Default 8
