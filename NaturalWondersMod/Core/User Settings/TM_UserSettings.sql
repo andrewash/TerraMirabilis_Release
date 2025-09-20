@@ -22,12 +22,21 @@ VALUES
 -- NOTE: This does not guarantee you will see X number of wonders in the game. This will be due to map script placement. Consider this more of a maximum value.
 -----------------------------------------------
 
+<<<<<<< Updated upstream
 	('WONDERS_DUEL',		'NW_MAP_SIZE',	4), -- Game Default 2
 	('WONDERS_TINY',		'NW_MAP_SIZE',	6), -- Game Default 3
 	('WONDERS_SMALL',		'NW_MAP_SIZE',	8), -- Game Default 4
 	('WONDERS_STANDARD',	'NW_MAP_SIZE',	12), -- Game Default 5
 	('WONDERS_LARGE',		'NW_MAP_SIZE',	14), -- Game Default 6
 	('WONDERS_HUGE',		'NW_MAP_SIZE',	16), -- Game Default 7
+=======
+	('WONDERS_DUEL',		'NW_MAP_SIZE',	6), -- Game Default 2
+	('WONDERS_TINY',		'NW_MAP_SIZE',	9), -- Game Default 3
+	('WONDERS_SMALL',		'NW_MAP_SIZE',	12), -- Game Default 4
+	('WONDERS_STANDARD',	'NW_MAP_SIZE',	15), -- Game Default 5
+	('WONDERS_LARGE',		'NW_MAP_SIZE',	18), -- Game Default 6
+	('WONDERS_HUGE',		'NW_MAP_SIZE',	21), -- Game Default 7
+>>>>>>> Stashed changes
 
 	-- Gedemon's YNAMP
 	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	16), -- Default 8
